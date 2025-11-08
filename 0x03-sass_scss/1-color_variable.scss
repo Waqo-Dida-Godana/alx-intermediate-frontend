@@ -1,10 +1,12 @@
-// Define variable
-$main-text-color: #3D3D3D;
+You must use a Sass variable
+guillaume@ubuntu:~/$ sass 1-color_variable.scss | tail -n +2
 
 body {
-  color: $main-text-color;
+  color: #3D3D3D; 
 }
 
 p {
-  color: $main-text-color;
+  color: #3D3D3D;
 }
+
+guillaume@ubuntu:~/$ 

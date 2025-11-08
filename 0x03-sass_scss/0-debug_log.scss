@@ -1,2 +1,4 @@
-// Prints Hello world in the debug output
-@debug "Hello world";
+guillaume@ubuntu:~/$ sass 0-debug_log.scss | head -n 0
+0-debug_log.scss:2 DEBUG: Hello world
+
+guillaume@ubuntu:~/$ 
